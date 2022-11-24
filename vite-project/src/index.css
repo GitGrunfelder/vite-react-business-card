@@ -1,0 +1,155 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 1.1;
+  font-weight: bold;
+  margin: 25px 0 5px 0;
+}
+
+.infotext {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.link {
+  padding-top: 10px;
+}
+
+.buttons {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.email {
+  background-color:#FFFFFF;
+  color: #374151;
+  font-weight: bolder;
+}
+
+.linkedin {
+  background-color: #5093E2;
+  font-weight: bolder;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 125px;
+}
+button:hover {
+  border-color: #F3BF99;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.textChunk {
+  text-align: left;
+  width: 325px;
+  margin: 0 auto;
+}
+
+.aboutText {
+  margin-top: -20px;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.mainApp {
+  background-color: #1A1B21;
+  border-radius: 3%;
+  width: 425px;
+}
+
+.headshot {
+  max-width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.title {
+  color: #F3BF99;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1.3px;
+  margin: 0;
+}
+
+.info p {
+  font-size: 13px;
+}
+
+.footer {
+  background-color: #161619;
+  margin-top: 3rem;
+  padding: 1rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.footer i {
+  color: #918E9B;
+  padding: 20px;
+}
+
+.footer i:hover {
+  color: #535bf2;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
